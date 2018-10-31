@@ -113,11 +113,11 @@ width: 5rem;
 
 }
 
-.teal-bg {
+.teal-bg p {
   background-color: cadetblue;
   color: white;
   text-transform: uppercase;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
   margin-right: 8rem;
 }
 
@@ -129,4 +129,19 @@ width: 5rem;
 
 .appointments-box {
   width: 50%;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: azure;
+  margin-top: 3rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo-copyright {
+  display: flex;
+  align-items: center;
 }
