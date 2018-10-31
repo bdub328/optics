@@ -1,0 +1,132 @@
+/* Top Section */
+html {}
+
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+/*Header*/
+
+  .header {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    position: top;
+    padding-top: 1rem;
+  }
+
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: cadetblue;
+  color: white;
+  }
+
+  .company {
+  display: inline-block;
+  }
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+.logo img {
+    height: 1.5rem;
+    padding-right: 1rem;
+  }
+
+  .navigation ul {
+    display: flex;
+  }
+
+  .navigation li {
+    display: inline;
+    padding: 0 1.5rem;
+  }
+
+
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-banner {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  padding: .75rem 4rem;
+  margin-top: 5rem;
+  margin-right: 5rem;
+  width: auto;
+}
+
+
+/*Lower - Icons*/
+
+
+.icon-row {
+  display: flex;
+  justify-content: center;
+}
+
+.offers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.offers img.paper-icon {
+width: 3.5rem;
+}
+
+.offers img {
+width: 5rem;
+
+}
+
+/*Philosophy & Appointments*/
+
+.info-row {
+  display: flex;
+
+}
+
+.teal-bg {
+  background-color: cadetblue;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 1rem;
+  margin-right: 8rem;
+}
+
+
+.philosophy-box {
+  width: 50%;
+  padding-right: 3rem;
+}
+
+.appointments-box {
+  width: 50%;
+}
